@@ -6,12 +6,12 @@ precision mediump float;
 uniform vec2    u_resolution;
 uniform float   u_time;
 
-#include "../lygia/space/ratio.glsl"
-#include "../lygia/draw/fill.glsl"
-#include "../lygia/draw/stroke.glsl"
-#include "../lygia/sdf/circleSDF.glsl"
-#include "../lygia/sdf/triSDF.glsl"
-#include "../lygia/sdf/flowerSDF.glsl"
+#include "lygia/space/ratio.glsl"
+#include "lygia/draw/fill.glsl"
+#include "lygia/draw/stroke.glsl"
+#include "lygia/sdf/circleSDF.glsl"
+#include "lygia/sdf/triSDF.glsl"
+#include "lygia/sdf/flowerSDF.glsl"
 
 void main(void) {
     vec3 color = vec3(0.0);
